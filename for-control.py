@@ -10,7 +10,8 @@ for i in range(len(frutas)):
     print(frutas[i])
 
 for i in range(4):
-    if i == 0:
+    
+    if i == 5:
         break
     if i % 2 == 0:
         continue
