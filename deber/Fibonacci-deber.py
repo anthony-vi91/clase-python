@@ -7,8 +7,8 @@ def fibonacci(n):
     else:
         list_fib = [0, 1]
         while len(list_fib) < n:
-            next_fib = list_fib[-1] + list_fib[-2]
-            list_fib.append(next_fib)
+            a = list_fib[-1] + list_fib[-2]
+            list_fib.append(a)
         return list_fib
 
 try:
