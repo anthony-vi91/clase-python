@@ -4,7 +4,7 @@ print(inventario)
 nuevo_producto = input("Ingresa el nombre del nuevo producto: ")
 cantidad = int(input("Ingresa la cantidad en stock: "))
 
-inventario[nuevo_producto] = cantidad  # Se agrega al diccionario
+inventario[nuevo_producto] = cantidad  
 
 print("Producto agregado correctamente.\n")
 
