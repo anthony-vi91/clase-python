@@ -45,3 +45,17 @@ def mostrar():
 
 mostrar()
 print("Fuera de la funcion:", x)
+
+#Cambio de una variable globan en una funcion
+
+contador = 0 
+
+def incrementar():
+    global contador
+    contador += 1
+    #global se usa en una variable que se usa de fuera de la funcion
+    print(contador)
+
+incrementar()
+incrementar()
+print("contador: ",contador)
